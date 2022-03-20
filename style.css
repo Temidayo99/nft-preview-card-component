@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --softblue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: var(--mainBG);
+}
+
+.equi-image {
+  /* width: auto; */
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.equi-image:hover{
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  margin: 20px 20px;
+  background: var(--cardBG);
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.card-text .lead {
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.card-text .lead:hover{
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.card-text .sub-text {
+  color: var(--softblue);
+  font-size: 16px;
+}
+
+.card-text .networth {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+.card-text .networth .eth {
+  color: var(--cyan);
+}
+
+.card-text .networth .time-left {
+  color: var(--softblue);
+}
+
+hr {
+  color: var(--line);
+}
+
+.footer {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.footer .avatar {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.footer .author {
+  padding-left: 10px;
+}
+
+.footer {
+  color: var(--softblue);
+}
+.footer .author-name {
+  color: #fff;
+}
+
+.footer .author-name:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.attribution {
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .card-container {
+    width: 25%;
+  }
+
+  .card-text .sub-text {
+    font-size: 17px;
+  }
+
+  .footer .author {
+    font-size: 17px;
+  }
+}
