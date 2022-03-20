@@ -27,14 +27,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot (80).png)
-![](./images/Screenshot (81).png)
+![](./images/Screenshot1.png)
+
+![](./images/Screenshot2.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Temidayo99/nft-preview-card-component)
+- Live Site URL: [Netlify](https://hardcore-stonebraker-06f7b1.netlify.app/)
 
 ## My process
 
