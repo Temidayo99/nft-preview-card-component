@@ -76,31 +76,31 @@ hr {
   color: var(--line);
 }
 
-.footer {
+.author-div {
   display: flex;
   padding-top: 20px;
   align-items: center;
 }
 
-.footer .avatar {
+.author-div .avatar {
   width: 50px;
   height: 50px;
   border: 2px solid #fff;
   border-radius: 50px;
 }
 
-.footer .author {
+.author-div .author {
   padding-left: 10px;
 }
 
-.footer {
+.author-div {
   color: var(--softblue);
 }
-.footer .author-name {
+.author-div .author-name {
   color: #fff;
 }
 
-.footer .author-name:hover {
+.author-div .author-name:hover {
   color: var(--cyan);
   cursor: pointer;
 }
@@ -118,7 +118,7 @@ hr {
     font-size: 17px;
   }
 
-  .footer .author {
+  .author-div .author {
     font-size: 17px;
   }
 }
